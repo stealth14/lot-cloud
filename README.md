@@ -51,12 +51,19 @@ Instalar sdk cliente para Python de thingsboard
 
 ```pip3 install tb-mqtt-client```
 
- 
-Con la siguiente función es posible enviar los datos de temperatura al dashboard configurado en el paso anterior
+Crear dispositivo de thingsboard
+
+![Screen Shot 2022-03-02 at 01 08 53](https://user-images.githubusercontent.com/52419137/156305288-845a7511-6d8b-4043-8d9c-4159426d89a4.png)
+
+Crear Dashboard en thingsboard
+
+![Screen Shot 2022-03-02 at 01 09 11](https://user-images.githubusercontent.com/52419137/156305306-946c63a9-857b-4d54-9dbc-8bef9566f1c9.png)
+
+Se añade la funcion que permite enviar los datos de temperatura al dashboard configurado en el paso anterior
 
 ![Picture11](https://user-images.githubusercontent.com/52419137/156304585-7a88e86e-11ac-4cf0-b15f-bc98cb5474ed.png)
 
-Script python que debe ejecutarse en Raspberry Pi OS :
+Script completo de python ejecutado en Raspberry Pi OS :
 
 ```
 import firebase_admin
